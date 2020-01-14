@@ -57,6 +57,10 @@
   - A service is said to be **listening** for a port when it has that specific port open
 
   - Once a service has made a connection, the port is in an **established** state
+  
+  - port state : CLOSE_WAIT : remote side has closed the connection
+  
+  - port state : TIME_WAIT : your side has closed the connection
 
   - Netstat
 
